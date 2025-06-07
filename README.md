@@ -1,18 +1,42 @@
-## Getting Started
+# 📚 Sistema de Cadastro de Alunos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um sistema simples de cadastro de alunos desenvolvido em Java. Ele permite criar, listar, buscar, editar e excluir registros de alunos, armazenando os dados em um arquivo de texto (alunos.txt).
 
-## Folder Structure
+## 🛠 Tecnologias Utilizadas
 
-The workspace contains two folders by default, where:
+- Java
+- Orientação a Objetos
+- Manipulação de arquivos (FileReader, FileWriter)
+- Estrutura de dados (ArrayList)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ✅ Funcionalidades
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. *Criar novo registro de aluno:*  
+   O usuário informa os dados de um aluno (nome, data de nascimento, posição, telefone, CPF e e-mail), que são salvos em memória e no arquivo alunos.txt.
 
-## Dependency Management
+2. *Listar alunos cadastrados:*  
+   Mostra todos os alunos registrados.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. *Buscar aluno por nome:*  
+   Permite procurar um aluno digitando seu nome. A busca não diferencia maiúsculas de minúsculas.
+
+4. *Editar aluno:*  
+   Permite alterar os dados de um aluno já existente.
+
+5. *Excluir aluno:*  
+   Remove um aluno da lista e do arquivo com base no nome informado.
+
+6. *Sair do programa:*  
+   Encerra a execução.
+
+---
+
+## 📂 Estrutura Esperada
+
+Para que o sistema funcione corretamente, usa-se das seguintes classes:
+
+- Menu.java → classe principal com o menu interativo.
+- Aluno.java → classe modelo representando o aluno.
+- AlunoArquivo.java → classe utilitária para salvar e carregar os dados de/para alunos.txt.

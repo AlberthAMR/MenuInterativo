@@ -1,4 +1,4 @@
-# 📚 Sistema de Cadastro de Alunos
+# 📚 Sistema de Cadastro de Alunos de Escolinha de Futebol
 
 Este é um sistema simples de cadastro de alunos desenvolvido em Java. Ele permite criar, listar, buscar, editar e excluir registros de alunos, armazenando os dados em um arquivo de texto (alunos.txt).
 
